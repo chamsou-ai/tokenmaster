@@ -18,7 +18,6 @@ async function main() {
   await tokenMaster.deployed()
 
   console.log(`Deployed TokenMaster Contract at : ${tokenMaster.address}\n`)
-  fs.writeFileSync("../src/")
   const occasions = [
     {
       name: "UFC Miami",
